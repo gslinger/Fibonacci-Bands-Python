@@ -18,7 +18,9 @@ Requirements: Pandas, Pandas_webreader, plotly, datetime
 df = fibonacci_bollinger_bands(df, n=20, m=3)
 ```
 df = dataframe which must contain 'Close', 'Open', 'High', 'Low' columns
+
 n  = Period for moving average
+
 m  = multiplier for bollinger bands (m * standard deviation)
 
 returns:
@@ -28,8 +30,11 @@ A dataframe with a new column for each band.
 plot_fbb(df, fname="Test", n=20, m=3)
 ```
 df = dataframe which must contain 'Close', 'Open', 'High', 'Low' columns
+
 fname = File name to store the output graph (.html)
+
 n  = Period for moving average
+
 m  = multiplier for bollinger bands (m * standard deviation)
 
 returns:
