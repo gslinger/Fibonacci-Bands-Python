@@ -39,3 +39,6 @@ m  = multiplier for bollinger bands (m * standard deviation)
 
 returns:
 A .html file containing the plotted graph. Will also open the graph in your default browser. 
+
+
+The if __name__ == '__main__' shows example usage. 
