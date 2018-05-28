@@ -1,0 +1,3 @@
+# ignore PyCharm and IntelliJ project metadata
+/.idea/
+*.iml
